@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{block name="title"}凡人的设计室{/block}</title>
+    <link rel="stylesheet" href="/public/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="/public/css/admin/admin.css" type="text/css" />
+    <link rel="stylesheet" href="/public/css/admin/weixin.css" type="text/css" />
+    <script type="text/javascript" src="/public/js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="/public/js/common.js"></script>
+    <script type="text/javascript" src="/public/js/qDialog.js"></script>
+    {block name="css"}{/block}
+    {block name="js"}{/block}
+</head>
+<body style="background:#f0f3f7;">
+<div id="wrap">
+    {block name="header"}
+        <div class="header">
+            <div class="htop clearfix">
+                <h1 class="logo left"><a href="/"><img src="/public/img/logo.png" width="33" height="33" alt="微品牌"></a></h1>
+                <div class="htop-login right">
+                    <!--<a href="http://ovpp.net/admin.html" data-id="12">登录</a>-->
+                    <!--<a href="http://ovpp.net/user/register">注册</a>-->
+                </div>
+            </div>
+        </div>
+    {/block}
+    {block name="content"}{/block}
+    {block name="footer_js"}{/block}
+</div>
+</body>
+</html>

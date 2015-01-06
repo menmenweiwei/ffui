@@ -75,4 +75,15 @@ a{outline:none;blr:expression(this.onFocus=this.blur());}
 .h23{ height:23px;}
 .h20{ height:20px;}
 
+/*毛玻璃*/
+.blur {
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
 

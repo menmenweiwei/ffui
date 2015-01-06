@@ -35,10 +35,11 @@ a.username:hover{ color:#fff;}
 
 
 /*登录页面*/
-.login-con{ width:400px; height:auto; padding:123px 0 200px; margin:0 auto;}
+.login-container{ background:url(/public/img/bg.jpg)!important;}
+.login-con{ width:400px; height:auto; padding:125px 0 125px; margin:0 auto;}
 .login-title{ height:40px; line-height:40px; font-size:16px; color:#636363; margin-bottom:10px;}
 .login-title img{ display:none; margin-right:10px;}
-.login-form{ width:335px; height:auto; background:#fff; border:1px solid #cecece; padding:23px 30px; border-radius:5px;}
+.login-form{ width:335px; height:300px; text-align: center; background: transparent; border:1px solid #cecece; padding:23px 30px; border-radius:5px;}
 .login-form-box{ height:45px; margin-bottom:13px;}
 .login-form-box label{ display:inline-block; width:71px; line-height:43px; text-align:right; vertical-align:middle; border:1px solid #e9e9e9; border-right:none; border-radius:5px 0 0 5px;}
 .login-form-box input{ width:262px; height:20px; line-height:20px; padding:11px 0 12px; border:none; background:none; vertical-align:middle;-webkit-appearance:none; border:1px solid #e9e9e9; border-left:none; border-radius:0 5px 5px 0; text-indent:6px; }
@@ -49,6 +50,8 @@ a.username:hover{ color:#fff;}
 .login-form-link{ display:inline-block; line-height:26px; margin-left:10px; color:#898989;}
 .login-form-regi{ display:inline-block; line-height:26px; margin-left:10px; color:#23a18b;}
 .login-form .btn-xxl{ width:335px; margin-top:10px; letter-spacing:5px;}
+.login-form form { margin-top: 25px;}
+.login-form img { width: 100px; height: 100px; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;}
 
 /*注册页面*/
 .regi-con{ width:410px; height:auto; padding:50px 0; margin:0 auto;}
